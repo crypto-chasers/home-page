@@ -31,7 +31,7 @@ import { PageHead } from './PageHead'
 import { PageActions } from './PageActions'
 import { Footer } from './Footer'
 import { PageSocial } from './PageSocial'
-import { GitHubShareButton } from './GitHubShareButton'
+// import { GitHubShareButton } from './GitHubShareButton'
 
 import styles from './styles.module.css'
 
@@ -207,7 +207,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         }
       />
 
-      <GitHubShareButton />
+      {/* <GitHubShareButton /> */}
     </TwitterContextProvider>
   )
 }

@@ -50,6 +50,7 @@ export const description: string = getSiteConfig('description', 'Notion Blog')
 export const twitter: string | null = getSiteConfig('twitter', null)
 export const zhihu: string | null = getSiteConfig('zhihu', null)
 export const github: string | null = getSiteConfig('github', null)
+export const discord: string | null = getSiteConfig('discord', null)
 export const linkedin: string | null = getSiteConfig('linkedin', null)
 
 // default notion values for site-wide consistency (optional; may be overridden on a per-page basis)

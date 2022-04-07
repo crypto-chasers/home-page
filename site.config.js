@@ -9,7 +9,7 @@ export default {
   // basic site info (required)
   name: 'CryptoChasers',
   domain: 'cryptochasers.co',
-  author: 'script money',
+  author: 'CryptoChasers',
 
   // open graph metadata (optional)
   description: 'A DAO helping new Web3 projects and users grow',
@@ -18,6 +18,7 @@ export default {
   twitter: 'cryptochasersco',
   github: 'crypto-chasers',
   linkedin: '',
+  discord: 'cryptochasers',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults

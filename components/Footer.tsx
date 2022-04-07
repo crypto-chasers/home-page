@@ -2,6 +2,7 @@ import React from 'react'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
+import { FaDiscord } from '@react-icons/all-files/fa/FaDiscord'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
@@ -46,6 +47,18 @@ export const Footer: React.FC<{
       ) : null}
 
       <div className={styles.social}>
+        {config.discord && (
+          <a
+            className={styles.discord}
+            href={`https://discord.gg/${config.discord}`}
+            title={`Discord @${config.discord}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaDiscord />
+          </a>
+        )}
+
         {config.twitter && (
           <a
             className={styles.twitter}
