@@ -18,7 +18,7 @@ export default {
   twitter: 'cryptochasersco',
   github: 'crypto-chasers',
   linkedin: '',
-  discord: 'cryptochasers',
+  discord: 'SXeN5fRFHN',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
